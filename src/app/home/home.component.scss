@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Quicksand:wght@600&family=Water+Brush&display=swap');
+.navbar-nav{
+   align-items: center;
+   margin-left: auto;
+   margin-right: auto;
+    .active{
+    font-family: 'Lobster', cursive;
+
+    font-family: 'Quicksand', sans-serif;
+
+    font-family: 'Water Brush', cursive;
+    
+    }
+   .nav-link{
+        color:rgba(78, 77, 77, 0.9);
+        font-size:unset;
+        margin-left:56px;
+        margin-right: 56px;
+
+    }
+    
+    
+}
