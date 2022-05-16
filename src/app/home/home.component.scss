@@ -16,7 +16,8 @@
     }
    .nav-link{
         color:rgba(78, 77, 77, 0.9);
-        font-size:unset;
+        font-size:25px;
+        ;
         margin-left:56px;
         margin-right: 56px;
         font-family: 'Patrick Hand', cursive;
@@ -27,7 +28,7 @@
     background-image: url("../../assets/csavoir.avif" );
     background-size:cover;
     height: 87vh;
-    font-size: 100px;
+    font-size: 80px;
     position: relative;
     text-align:center;
     display: grid;
@@ -46,12 +47,22 @@
     }
 }
 .Icons{
-    font-size: 40px;
+    font-size: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
     i{
-        margin: 10px;
+        margin: 20px;
+        color: black;
+    }
+}
+.footer{
+    display: grid;
+    justify-content:center;
+    color:grey;
+    
+    p{
+        margin-top: 20px;
     }
 }
 
