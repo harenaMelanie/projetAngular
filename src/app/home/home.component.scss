@@ -25,7 +25,7 @@
     }    
 }
 .couverture{
-    background-image: url("../../assets/csavoir.avif" );
+    background-image: url("../../assets/couverture.jpeg" );
     background-size:cover;
     height: 87vh;
     font-size: 80px;
@@ -34,7 +34,7 @@
     display: grid;
     align-content: center;
     justify-content: center;
-    color:#2A2550;
+    color:#90cefbcc;
     font-family: 'Patrick Hand', cursive;
     margin: 0px 40px;
     .En-voir-plus{
@@ -57,12 +57,19 @@
     }
 }
 .footer{
-    display: grid;
-    justify-content:center;
     color:grey;
+    .one{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
     
     p{
         margin-top: 20px;
+    }
+    .two{
+        display:flex;
+        justify-content: space-around;
     }
 }
 
