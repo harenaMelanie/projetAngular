@@ -1,0 +1,29 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css");
+.Icons{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:20px;
+    margin-top: 40px;
+    i{
+        margin: 20px;
+        color: black;
+    }
+}
+.footer{
+    color:grey;
+    .one{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    p{
+        margin-top: 20px;
+    }
+    .two{
+        display:flex;
+        justify-content: space-around;
+    }
+}

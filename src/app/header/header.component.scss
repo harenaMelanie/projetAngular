@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Quicksand:wght@600&family=Water+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+.navbar-nav{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+     .active{
+     font-family: 'Lobster', cursive;
+ 
+     font-family: 'Quicksand', sans-serif;
+ 
+     font-family: 'Water Brush', cursive;
+     font-weight: 5px;
+     
+     }
+    .nav-link{
+         color:rgba(78, 77, 77, 0.9);
+         font-size:25px;
+         ;
+         margin-left:56px;
+         margin-right: 56px;
+         font-family: 'Patrick Hand', cursive;
+ 
+     }    
+ }
