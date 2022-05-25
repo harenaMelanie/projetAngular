@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&family=Lobster&family=Quicksand:wght@600&family=Water+Brush&display=swap');
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+   width: 35%;
+   margin: 20px;
+
+}
+img{
+    border-radius:5px;
+    width: 25vw; 
+    height: 30vh;
+}
+.name{
+    font-size: 28px;
+    color: #34495E
+    ;
+
+}
+.local{
+    display: flex;
+    font-weight: 2px;
+    font-size: 13px;
+    align-items: center;
+    color: gray;
+}
+i{
+    margin-right: 10px;
+    font-size: 25px;
+    font-weight: 20px;
+    color:black;
+}

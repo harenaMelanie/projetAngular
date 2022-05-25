@@ -1,1 +1,18 @@
-<p>livre works!</p>
+<div class="container ">
+    <div class="row">
+        <div class="content" *ngFor="let book of Books">
+            <div >
+                <p class="name">{{ book.Name }}</p>
+                <img [src]="book.imageUrl"/>
+                <div class="local">
+                    <i class="bi bi-shop"></i>
+                    <p>{{book.local}}</p>
+                </div>
+                <div class="local">
+                    <i class="bi bi-balloon-heart-fill"></i>
+                    <p>{{book.title}}</p>
+                </div>
+            </div>
+        </div>
+    </div>    
+</div>
