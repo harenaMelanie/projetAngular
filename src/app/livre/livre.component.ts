@@ -9,8 +9,28 @@ import { Books } from './books';
 })
 export class LivreComponent implements OnInit {
  Books : Livre[] = Books;
+ myValue:string="";
   ngOnInit(): void {
   }
+  removebook(booktoremove:Livre){
+    booktoremove.isDeleted=false;
+  }
+  incrementNbLike(book:Livre){
+    book.nbLike++;
+  }
+  showComment(book:Livre){
+    book.clickComment=!book.clickComment;
+  }
+  takevalue(com:string){
+    this.myValue=com;
+  }
+  sendComment(book:Livre){
+    book.comment.push(this.myValue);
+    this.myValue="";
+  }
+
+
 }
+
 
 

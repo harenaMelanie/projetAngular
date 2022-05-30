@@ -4,4 +4,9 @@ export interface Livre {
     local: string,
     title:string,
     imageUrl:string;
+    isDeleted:boolean;
+    nbLike:number;
+    comment:string[];
+    clickComment:boolean;
 }
+
