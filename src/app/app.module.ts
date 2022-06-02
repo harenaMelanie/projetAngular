@@ -10,6 +10,7 @@ import { LivreComponent } from './livre/livre.component';
 import { BlogComponent } from './blog/blog.component';
 import { ContactComponent } from './contact/contact.component';
 import { CardLivreComponent } from './@features/pages/card-livre/card-livre.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { CardLivreComponent } from './@features/pages/card-livre/card-livre.comp
     CardLivreComponent
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     AppRoutingModule
   ],

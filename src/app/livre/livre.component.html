@@ -1,7 +1,7 @@
 <div class="container ">
     <div class="row">
         <div class="content" *ngFor="let book of Books">
-            <div >
+            <div *ngIf="!book.isDeleted">
                 <p class="name">{{ book.Name }}</p>
                 <img [src]="book.imageUrl"/>
                 <div class="local">
@@ -12,6 +12,29 @@
                     <i class="bi bi-balloon-heart-fill"></i>
                     <p>{{book.title}}</p>
                 </div>
+                <div class="mention">
+                    <div class="like local">
+                        <p (click)="incrementNbLike(book)">
+                            <i class="bi bi-star"></i>
+                            Like {{book.nbLike}}
+                        </p>
+                        <p class="commentaire" (click)="showComment(book)">
+                            <i class="bi bi-user-left-dots"></i>
+                            Comment{{book.comment.length}}
+                        </p>
+                    </div>
+                    <div class="comment" *ngFor="let com of book.comment">
+                        <p *ngIf="book.clickComment">{{com}}</p>
+                    </div>
+                    <div class="input">
+                        <textarea #oftexte cols="30" rows="4" placeholder="your comment"
+                        [(ngModel)]="myValue"
+                        [value]="myValue"></textarea>
+                        <button class="send" (click)="sendComment(book)">Send </button>
+                    </div>
+                    <button class="remove"(click)="removebook(book)">Remove</button>
+                </div>
+                
             </div>
         </div>
     </div>    

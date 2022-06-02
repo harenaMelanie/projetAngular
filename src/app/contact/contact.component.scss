@@ -1,0 +1,48 @@
+.container{
+    background-color: #251D3A;
+    color: blanchedalmond;
+    height: 120vh;
+    border-radius: 30px;
+    .container-content{
+        .text{
+            .texte-title{
+                font-size: 50px;
+                text-align: center;
+                font-weight: bold;
+            }
+            .texte-content{
+            text-align: center;
+            }
+        }
+        .contact{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+    }
+    .new-container{
+        background-color: #2A2550;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0 auto;
+        width: 70vw;
+        height: 70vh;
+        border-radius: 20px;
+        .form-control{
+            width: 200px;
+        }
+        .message{
+           display: grid;
+           button{
+               margin-top:1.2rem;
+               height: 40px;
+               background-color:#FF7700;
+               border: none;
+               border-radius: 5px;
+           }
+        }
+        
+    }
+}
+

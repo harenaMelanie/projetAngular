@@ -11,7 +11,7 @@
 }
 img{
     border-radius:5px;
-    width: 25vw; 
+    width: 30vw; 
     height: 30vh;
 }
 .name{
@@ -32,4 +32,43 @@ i{
     font-size: 25px;
     font-weight: 20px;
     color:black;
+}
+.like{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.input{
+    textarea{
+        width: 20vw;
+        height: 40px;
+        border-radius: 5px;
+        border-color:grey;
+}
+    .send{
+        font-size: 15px;
+        width: 100px;
+        background-color: #91CB3E;
+        border: none;
+        border-radius: 5px;
+        color:whitesmoke;
+    }
+    display: flex;
+    justify-content: space-between;
+}
+.remove{
+    font-size: 15px;
+    width: 100px;
+    margin-top: 12px;
+    background-color: #91CB3E;
+    border: none;
+    border-radius: 5px;
+    color:whitesmoke;
+    height: 43px;
+}
+.mention{
+    .commentaire{
+        opacity: 2;
+        transition: opacity 0.5;
+    }
 }
